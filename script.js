@@ -25,7 +25,7 @@ $(function () {
             }
         },
         tooltip: {
-            valueSuffix: 'tons'
+            valueSuffix: ' tons'
         },
         plotOptions: {
             bar: {
