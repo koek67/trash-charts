@@ -18,19 +18,19 @@ $(function () {
         yAxis: {
             min: 0,
             title: {
-                text: 'Population (millions)',
+                text: 'Amount (tons)',
                 align: 'left'
             },
             labels: {
             }
         },
         tooltip: {
-            valueSuffix: ' millions'
+            valueSuffix: 'tons'
         },
         plotOptions: {
             bar: {
                 dataLabels: {
-                    enabled: true
+                    enabled: false
                 }
             }
         },
@@ -67,7 +67,7 @@ $(function () {
             name: 'Keyboards Thrown',
             data: [7902, 9657, 8352, 9933, 11892, 12649, 25407, 31519, 39095, 54565, 52293, 60090, 69014, 77938, 80626, 94187, 92328, 75013, 63517, 70452]
         }, {
-            name: 'Mine New',
+            name: 'Mice New',
             data: [872, 890, 948, 1429, 2085, 3126, 2973, 1913, 2242, 2487, 2789, 3948, 5616, 5300, 5754, 3695, 3935, 3804, 3581, 3541]
         }, {
             name: 'Mice Thrown',
